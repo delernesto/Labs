@@ -82,10 +82,6 @@ void Behavioral_1()
     std::unique_ptr<Order_12> order2 (new Order_package(2));
     std::unique_ptr<Order_12> order3 (new Gross_order(2));
 
-//    B_Position *dir = new Director();
-//    B_Position *man = new Manager();
-//    B_Position *con = new Consultant();
-
     cout << "Order_single_product object:" << endl;
     order1->Send();
     cout << "Order_package object:" << endl;
